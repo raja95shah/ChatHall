@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChatHall</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <color name="white">#FFFF</color>
+    <color name="lightgreen">#18FFFF</color>
+    <color name="purple">#3949AB</color>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <color name="indigo">#5C6BC0</color>
+    <color name="blue">#536DFE</color>
+    <color name="mybad">#00897B</color>
+</resources>

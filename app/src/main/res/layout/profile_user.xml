@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:weightSum="50"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/profile_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:inputType="textEmailAddress" >
+        <requestFocus /></EditText>
+        <EditText
+            android:id="@+id/profile_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:inputType="text" >
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/profile_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_username"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/profile_update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_password"
+            android:layout_centerHorizontal="true"
+            android:text="Update"
+            android:onClick="update_profile"
+            />
+        <Button
+            android:id="@+id/user_logout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_update"
+            android:layout_centerHorizontal="true"
+            android:text="Logout"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
